@@ -56,23 +56,7 @@ An end-to-end healthcare data analysis project using **PostgreSQL, SQL, Python, 
 
 ● Cholesterol alone is not a strong indicator in this dataset.
 
-# 📂 Repository Structure
 
-Heart-Disease-Analysis
-
-│
-
-├── SQL
-
-├── Python
-
-├── Dataset
-
-├── Images
-
-├── README.md
-
-└── LICENSE
 
 # 👤 Author
 
