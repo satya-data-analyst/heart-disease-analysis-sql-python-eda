@@ -20,13 +20,13 @@ An end-to-end healthcare data analysis project using **PostgreSQL, SQL, Python, 
 
 # 📊 Dataset
 
-| Item      | Value                       |
-| --------- | --------------------------- |
-| Dataset   | UCI Heart Disease (Cleaned) |
-| Records   | **302**                     |
-| Features  | **17**                      |
-| Status    | Duplicate records removed   |
-| Ready For | SQL, Python & BI Analysis   |
+| Resource                  | Link                              |
+| ------------------------- | --------------------------------- |
+| Original Dataset          | UCI Heart Disease ([Kaggle Source](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset/data)) |
+| Cleaned Dataset           | Cleaned Version(https://www.kaggle.com/datasets/satyadata/clean-version-without-duplicates)        |
+| Records Used for Analysis | **302 cleaned patient records**   |
+| Features Used             | **17**                            |
+
 
 
 # 🛠️ Tech Stack
