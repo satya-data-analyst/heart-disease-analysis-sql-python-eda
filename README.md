@@ -1,6 +1,6 @@
 # ❤️ Heart Disease Analysis using SQL, Python & Data Visualization
 
-An end-to-end healthcare data analysis project using **PostgreSQL, SQL, Python, Pandas, Matplotlib, Seaborn, Looker Studio, and Tableau.** The project covers data cleaning, SQL analysis, exploratory data analysis (EDA), and interactive dashboards to uncover insights from heart disease data.
+An end-to-end healthcare data analysis project using **PostgreSQL, SQL, Python, Pandas, Matplotlib, Seaborn, Looker Studio, and Tableau.** This project demonstrates an end-to-end healthcare analytics workflow including data cleaning, SQL analysis, exploratory data analysis (EDA), and interactive dashboard development using PostgreSQL, Python, Looker Studio, and Tableau.
 
 # 📊 Dashboard
 
