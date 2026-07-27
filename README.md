@@ -23,7 +23,7 @@ An end-to-end healthcare data analysis project using **PostgreSQL, SQL, Python, 
 | Resource                  | Link                                                     |
 | ------------------------- | -------------------------------------------------------- |
 | Original Dataset          | **UCI Heart Disease Dataset** (https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset/data)     |
-| Cleaned Dataset           | **Heart Disease Dataset – Cleaned** ([[Kaggle Link](...)](https://www.kaggle.com/datasets/satyadata/clean-version-without-duplicates)) |
+| Cleaned Dataset           | **Heart Disease Dataset – Cleaned**(https://www.kaggle.com/datasets/satyadata/clean-version-without-duplicates) |
 | Raw Records               | **1,025**                                                |
 | Duplicate Records Removed | **723**                                                  |
 | Final Records Used        | **302**                                                  |
