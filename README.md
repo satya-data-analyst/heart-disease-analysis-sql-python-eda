@@ -20,14 +20,15 @@ An end-to-end healthcare data analysis project using **PostgreSQL, SQL, Python, 
 
 # 📊 Dataset
 
-| Resource                  | Link                              |
-| ------------------------- | --------------------------------- |
-| Original Dataset          | UCI Heart Disease ([Kaggle Source](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset/data)) |
-| Cleaned Dataset           | [Cleaned Version](https://www.kaggle.com/datasets/satyadata/clean-version-without-duplicates)        |
-| Raw Records               | **1,025** |
-| Duplicate Records Removed |   **723** |
-| Final Records Used        |   **302** |
-| Features                  |    **17** |
+| Resource                  | Link                                                     |
+| ------------------------- | -------------------------------------------------------- |
+| Original Dataset          | **UCI Heart Disease Dataset** (https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset/data)     |
+| Cleaned Dataset           | **Heart Disease Dataset – Cleaned** ([[Kaggle Link](...)](https://www.kaggle.com/datasets/satyadata/clean-version-without-duplicates)) |
+| Raw Records               | **1,025**                                                |
+| Duplicate Records Removed | **723**                                                  |
+| Final Records Used        | **302**                                                  |
+| Features                  | **17**                                                   |
+
 
 
 
@@ -47,15 +48,15 @@ An end-to-end healthcare data analysis project using **PostgreSQL, SQL, Python, 
 
 # 🔍 Key Insights
 
-| Insight               | Finding                                                                                                                |
-| --------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| ❤️ Heart Disease Rate | **54.3%** of patients were diagnosed with heart disease.                                                               |
-| 👥 Age                | Heart disease prevalence increased across older age groups.                                                            |
-| 🫀 Chest Pain         | Atypical angina and non-anginal pain showed the highest disease rates.                                                 |
-| 🏃 Exercise Angina    | Patients **without** exercise-induced angina had a higher disease rate (**69.3%**) than those with angina (**23.2%**). |
-| ❤️ Max Heart Rate     | Maximum heart rate differed noticeably between diagnosis groups.                                                       |
-| 🧪 Cholesterol        | Average cholesterol alone was not a strong predictor in this dataset (242 vs 251 mg/dL).                               |
-
+| Insight                    | Finding                                                                                                                                                                 |
+| -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ❤️ Heart Disease Rate      | **54.3%** of patients in the cleaned dataset were diagnosed with heart disease.                                                                                         |
+| 👥 Age & Risk              | Heart disease prevalence generally increased with age, with older age groups showing higher risk.                                                                       |
+| 🫀 Chest Pain              | Patients with **atypical angina** and **non-anginal pain** exhibited higher heart disease rates.                                                                        |
+| 🏃 Exercise-Induced Angina | Patients **without** exercise-induced angina had a higher heart disease prevalence (**69.32%**) than those with angina (**23.23%**).                                    |
+| 🩸 Fasting Blood Sugar     | Fasting blood sugar alone showed a limited association with heart disease in this dataset.                                                                              |
+| 📊 Combined Risk Factors   | Analysis of combined clinical risk factors revealed substantial differences in heart disease prevalence across patient subgroups.                                       |
+| 🧪 Cholesterol             | Cholesterol alone was not a strong discriminator. Patients with heart disease had a lower average cholesterol level (**242 mg/dL**) than those without (**251 mg/dL**). |
 
 
 
