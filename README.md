@@ -44,25 +44,39 @@ An end-to-end healthcare data analysis project using **PostgreSQL, SQL, Python, 
 
 # 🔍 Key Insights
 
-More than half of the patients were diagnosed with heart disease.
-Chest pain type shows a strong association with heart disease.
-Heart disease prevalence increases with age.
-Exercise-induced angina differs between diagnosis groups.
-Maximum heart rate varies between patients with and without heart disease.
-Cholesterol alone is not a strong indicator in this dataset.
+● More than half of the patients were diagnosed with heart disease.
+
+● Chest pain type shows a strong association with heart disease.
+
+● Heart disease prevalence increases with age.
+
+● Exercise-induced angina differs between diagnosis groups.
+
+● Maximum heart rate varies between patients with and without heart disease.
+
+● Cholesterol alone is not a strong indicator in this dataset.
 
 # 📂 Repository Structure
 
 Heart-Disease-Analysis
+
 │
+
 ├── SQL
+
 ├── Python
+
 ├── Dataset
+
 ├── Images
+
 ├── README.md
+
 └── LICENSE
 
 # 👤 Author
+
+**Satya**
 
 | Platform | Link                                                                                                     |
 | -------- | -------------------------------------------------------------------------------------------------------- |
