@@ -3,7 +3,10 @@ age text,sex text,cp text,trestbps text,chol text,fbs text,restecg text,thalach 
 exang text,oldpeak text,slope text,ca text,thal text,target text
 );
 
-COPY heart_raw_data FROM 'C:/Program Files/PostgreSQL/New folder/archive (22)/heart.csv'
+-- Replace '/path/to/heart.csv' with your actual file path
+--source(https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset/data)
+
+COPY heart_raw_data FROM '/path/to/heart.csv'
 WITH(FORMAT CSV,HEADER true,ENCODING 'utf8'); 
 
 CREATE TABLE heart_clean_data(
