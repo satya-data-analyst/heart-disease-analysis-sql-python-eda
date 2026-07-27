@@ -4,7 +4,8 @@ exang text,oldpeak text,slope text,ca text,thal text,target text
 );
 
 -- Replace '/path/to/heart.csv' with your actual file path
---source(https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset/data)
+-- Download the dataset from:
+--https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset/data
 
 COPY heart_raw_data FROM '/path/to/heart.csv'
 WITH(FORMAT CSV,HEADER true,ENCODING 'utf8'); 
