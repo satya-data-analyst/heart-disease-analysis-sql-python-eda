@@ -23,9 +23,12 @@ An end-to-end healthcare data analysis project using **PostgreSQL, SQL, Python, 
 | Resource                  | Link                              |
 | ------------------------- | --------------------------------- |
 | Original Dataset          | UCI Heart Disease ([Kaggle Source](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset/data)) |
-| Cleaned Dataset           | Cleaned Version(https://www.kaggle.com/datasets/satyadata/clean-version-without-duplicates)        |
-| Records Used for Analysis | **302 cleaned patient records**   |
-| Features Used             | **17**                            |
+| Cleaned Dataset           | [Cleaned Version](https://www.kaggle.com/datasets/satyadata/clean-version-without-duplicates)        |
+| Raw Records               | **1,025** |
+| Duplicate Records Removed |   **723** |
+| Final Records Used        |   **302** |
+| Features                  |    **17** |
+
 
 
 
@@ -44,17 +47,15 @@ An end-to-end healthcare data analysis project using **PostgreSQL, SQL, Python, 
 
 # 🔍 Key Insights
 
-● More than half of the patients were diagnosed with heart disease.
+| Insight               | Finding                                                                                                                |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| ❤️ Heart Disease Rate | **54.3%** of patients were diagnosed with heart disease.                                                               |
+| 👥 Age                | Heart disease prevalence increased across older age groups.                                                            |
+| 🫀 Chest Pain         | Atypical angina and non-anginal pain showed the highest disease rates.                                                 |
+| 🏃 Exercise Angina    | Patients **without** exercise-induced angina had a higher disease rate (**69.3%**) than those with angina (**23.2%**). |
+| ❤️ Max Heart Rate     | Maximum heart rate differed noticeably between diagnosis groups.                                                       |
+| 🧪 Cholesterol        | Average cholesterol alone was not a strong predictor in this dataset (242 vs 251 mg/dL).                               |
 
-● Chest pain type shows a strong association with heart disease.
-
-● Heart disease prevalence increases with age.
-
-● Exercise-induced angina differs between diagnosis groups.
-
-● Maximum heart rate varies between patients with and without heart disease.
-
-● Cholesterol alone is not a strong indicator in this dataset.
 
 
 
